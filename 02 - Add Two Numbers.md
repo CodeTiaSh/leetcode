@@ -1,6 +1,6 @@
 [leetcode 02 Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)
 
-解析：在两个链表相加达到末尾时，还需要判断末尾的数是否会产生进位。
+解析：在两个链表相加达到末尾时，还需要判断末尾的数是否会产生进位， 所以最后需要判断carry是否大于0。
 
 ```java
 public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
